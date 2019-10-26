@@ -1,0 +1,31 @@
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.wrapCardBtn{
+    display: flex;
+    flex-direction: column;
+}
+.cardBtn{
+    padding: 5px;
+    color: rgba(0,0,0, .8);
+}
+.cardBtn:hover{
+    color: rgba(0,0,0, 1);
+    cursor: pointer;
+}
+.newCard{
+    background: lightgray;
+}
+.closedDay{
+    background: orange;
+}
+.closedCard{
+    background: red;
+}
+.oneDayToClosed{
+    background: yellow;
+}

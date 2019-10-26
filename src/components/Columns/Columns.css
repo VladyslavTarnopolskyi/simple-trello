@@ -1,0 +1,41 @@
+.Columns{
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.ColumnsItem{
+    min-width: 272px;
+    max-width: 272px;
+    margin: 0 4px 10px;
+    background: #fff;
+    border-radius: 3px;
+}
+.Textarea{
+    resize: none;
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    outline: none;
+    border-radius: 3px;
+}
+.ColumnsHeader{
+    padding: 8px 8px 4px;
+}
+.ColumnName {
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 8px 4px;
+    margin-bottom: 8px;
+}
+.DeleteBtn{
+    color: rgba(0,0,0,0.5);
+    font-size: 16px;
+}
+.DeleteBtn:hover{
+    color: rgba(0,0,0,1);
+    cursor: pointer;
+}

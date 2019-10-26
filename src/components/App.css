@@ -1,0 +1,21 @@
+.App {
+  font-family: Arial,  sans-serif;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+.AppH{
+  text-align: center;
+  color: #fff;
+}
+.AppWrapper{
+  display: flex;
+  align-items: flex-start;
+  /*flex-wrap: wrap;*/
+}
+.WrapBtn{
+  display: flex;
+  flex-direction: column;
+  width: 272px;
+  margin: 0 4px;
+  border-radius: 3px;
+}

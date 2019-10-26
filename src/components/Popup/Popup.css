@@ -1,0 +1,49 @@
+.Popup{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+.PopupInner{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    margin: auto;
+    padding: 15px 15px 30px;
+    background: white;
+    color: #000;
+}
+.Textarea{
+    resize: none;
+    overflow: hidden;
+    border: none;
+    width: 100%;
+    outline: none;
+    border-radius: 3px;
+}
+.closePopup{
+    align-self: flex-end;
+    font-size: 22px;
+    color: rgba(0,0,0, .8);
+}
+.closePopup:hover{
+    cursor: pointer;
+    color: rgba(0,0,0, 1);
+}
+.Icons{
+    font-size: 20px;
+    padding-right: 15px;
+}
+.wrapItem{
+    display: flex;
+    /*font-weight: bold;*/
+    padding: 10px 0 20px;
+}

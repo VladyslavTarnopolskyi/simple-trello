@@ -1,0 +1,28 @@
+.wrapTextarea{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    min-height: 85px;
+}
+.Textarea{
+    resize: none;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+
+    width: 100%;
+    outline: none;
+}
+.wrapBtn{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.saveBtn{
+    color: #fff;
+    border:none;
+    background: green;
+    width: 50%;
+    padding: 10px 5px;
+}
